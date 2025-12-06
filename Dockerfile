@@ -7,4 +7,3 @@ FROM alpine:3.22
 COPY --from=build /app/target/release/api /usr/bin/
 EXPOSE 3000
 ENTRYPOINT [ "/usr/bin/api" ]
-torben@debian-4gb-fsn1-1:~/rust-
